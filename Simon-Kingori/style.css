@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+    grid-template-columns: min-conten;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+
+table {
+    border: #00b1cccb;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+th, td {
+    border: 1px solid #261a1a;
+    padding: 5px 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #3c8ce2;
+}
+
+.day-column {
+    font-size: medium;
+    background-color: #7a7a7b;
+    font-weight: bold;
+    width: 60px;
+    writing-mode: horizontal-tb;
+    padding: 5px 0;
+}
+
+.time-row {
+    background-color: #2bbad0;
+    font-weight: bold;
+}
+
+.break {
+    background-color: #c0c0c0;
+}
+
+.lunch {
+    background-color: #9b9b9b84;
+}
+
+.side-label {
+    writing-mode: horizontal-tb;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.tutor {
+    writing-mode:vertical-lr;
+    text-orientation: upright;
+    width: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 0;
+    text-align: unset;
+    background-color: #f2f2f2;
+}
+
+.tutor-time {
+    font-weight: bold;
+    font-size: medium;
+    vertical-align: auto;
+    width: 20px;
+    text-align: center;
+}
+.teachers {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px
+}    
